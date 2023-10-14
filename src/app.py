@@ -155,7 +155,7 @@ app.layout = html.Div([
             label='Estudômetro',
         ),
         
-        html.Img(id='sun-img', src='https://raw.githubusercontent.com/grendamenezes/estudometro/main/dani_docinho2.png', style={'height': '100px', 'width': '100px', 'margin-left': '10px'}),
+        html.Img(id='sun-img', src='https://raw.githubusercontent.com/grendamenezes/estudometro-idia/master/idia.png', style={'height': '200px', 'width': '100px', 'margin-left': '10px'}),
     ], style={'display': 'flex', 'align-items': 'center', 'justify-content': 'center'}),
     
     html.Br(), html.Br(), html.Br(), html.Br(),
@@ -372,7 +372,7 @@ def update_thermometer(tip,pt1,pt2,pt3,pt4,mt1,mt2,mt3,mt4,mt5,mt6,mt7,lg1,lg3,l
 	avg_temp = (port*5+mat*5+leg*5+con*10+esp*15)*2.5
 	thermometer_value = avg_temp
 	img_style = {
-        'height': '150px',
+        'height': '200px',
         'width': '100px',
         'position': 'relative',
         'top': f'{2 * (60 - thermometer_value)}px'
